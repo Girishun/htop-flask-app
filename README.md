@@ -3,9 +3,10 @@
 This project is a Flask-based web application that exposes an `/htop` endpoint. The endpoint displays system information including:
 
 - **Name**: Girishun Kumar R
-- **Username**: Girishun
-- **Server Time**: 18:30
-- **Top Output**: A snapshot of the system's `top` command output
+- **User**: codespace
+- **Server Time(IST)**: 2024-10-19 19:13:15.889181
+- **Top Output**: ![image](https://github.com/user-attachments/assets/1189e495-65db-4343-b626-7e1ae8fff69a)
+
 
 ## Features
 - `/htop` endpoint that displays real-time system stats in a browser.
@@ -42,12 +43,6 @@ This project is a Flask-based web application that exposes an `/htop` endpoint. 
 
 4. **Access the application:**
 
-    Visit `http://localhost:5000/htop` to view the system stats.
+    Visit `https://laughing-guacamole-vx57vq46963qrg-5000.app.github.dev/htop` to view the system stats.
 
-## Deploying on GitHub Codespaces
 
-This app can be deployed on GitHub Codespaces. Follow these steps:
-
-1. Create a Codespace for this repository.
-2. Follow the setup instructions to start the Flask server inside the Codespace.
-3. Make the port public to access the `/htop` endpoint externally.
